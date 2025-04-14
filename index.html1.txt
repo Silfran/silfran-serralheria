@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Silfran Serralheria</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body { font-family: Arial, sans-serif; background-color: #f4f4f4; }
+
+    header { background-color: #333; color: white; text-align: center; padding: 20px; }
+    header h1 { font-size: 2.5em; }
+    header p { font-size: 1.2em; margin-top: 10px; }
+
+    nav { background-color: #444; padding: 10px 0; text-align: center; }
+    nav a { color: white; text-decoration: none; padding: 14px 20px; display: inline-block; }
+    nav a:hover { background-color: #575757; }
+
+    .banner { background-image: url('https://via.placeholder.com/1200x400'); background-size: cover; text-align: center; color: white; padding: 120px 0; }
+    .banner h2 { font-size: 3em; }
+    .banner p { font-size: 1.5em; }
+
+    section { padding: 40px 20px; max-width: 1000px; margin: 40px auto; }
+    section h2 { font-size: 2.5em; margin-bottom: 20px; }
+    .servico { margin-bottom: 30px; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .servico h3 { font-size: 1.8em; margin-bottom: 10px; }
+    .servico p { font-size: 1.2em; }
+
+    .galeria { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .galeria img { width: 100%; max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+
+    form { display: grid; gap: 20px; }
+    input, textarea { padding: 10px; font-size: 1em; border-radius: 5px; border: 1px solid #ddd; width: 100%; }
+    textarea { height: 150px; }
+    button { padding: 15px; background-color: #333; color: white; border: none; cursor: pointer; border-radius: 5px; }
+    button:hover { background-color: #444; }
+
+    footer { background-color: #333; color: white; text-align: center; padding: 20px 10px; }
+    footer p { font-size: 1.2em; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://via.placeholder.com/150x150?text=Logo" alt="Logo da Silfran Serralheria" style="max-width: 150px;">
+    <h1>Silfran Serralheria</h1>
+    <p>Especialistas em portões, grades e estruturas metálicas</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <div class="banner">
+    <h2>Solicite seu Orçamento!</h2>
+    <p>Entre em contato agora e obtenha a solução ideal para suas necessidades em serralheria.</p>
+  </div>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>A Silfran Serralheria é especializada em serviços de metalurgia de alta qualidade, oferecendo soluções personalizadas para portões, grades, e estruturas metálicas. Com mais de 10 anos de experiência no mercado, garantimos excelência e pontualidade em todos os nossos projetos.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <div class="servico">
+      <h3>Portões</h3>
+      <p>Portões de correr, basculantes e automatizados com acabamento de alta qualidade e durabilidade.</p>
+    </div>
+    <div class="servico">
+      <h3>Grades</h3>
+      <p>Grades de proteção residenciais e comerciais, totalmente personalizadas conforme sua necessidade.</p>
+    </div>
+    <div class="servico">
+      <h3>Estruturas Metálicas</h3>
+      <p>Construção e manutenção de estruturas metálicas para galpões, coberturas e outros projetos especiais.</p>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria de Trabalhos</h2>
+    <div class="galeria">
+      <img src="https://via.placeholder.com/300x200" alt="Serviço de Serralheria 1">
+      <img src="https://via.placeholder.com/300x200" alt="Serviço de Serralheria 2">
+      <img src="https://via.placeholder.com/300x200" alt="Serviço de Serralheria 3">
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form>
+      <input type="text" placeholder="Seu Nome" required>
+      <input type="email" placeholder="Seu E-mail" required>
+      <input type="tel" placeholder="Seu Telefone" required>
+      <textarea placeholder="Sua Mensagem" required></textarea>
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Silfran Serralheria | Todos os direitos reservados</p>
+    <p>Telefone: (16) 98152-3379 | Endereço: Rua Amadeu Inocêncio Barbosa</p>
+  </footer>
+
+</body>
+</html>
